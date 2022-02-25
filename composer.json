@@ -1,0 +1,21 @@
+{
+    "name": "rodrigo/exads",
+    "description": "EXADS Senior PHP Technical Test",
+    "autoload": {
+        "psr-4": {
+            "Rodrigo\\Exads\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Viégas",
+            "email": "rvaguerra@gmail.com"
+        }
+    ],
+    "require": {
+        "exads/ab-test-data": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
